@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "title": "ASHWANI MART",
+      "description": "Full e-commerce website with proper authentication and use of redux. Has admin features also!!",
+      "url": "https://a-wears.onrender.com",
+      "imgSrc": "https://res.cloudinary.com/dwvvzrxcq/image/upload/v1710820510/sjbcid8hqpwe0zf549db.png"
+    },
+    {
+      "title": "My PLACEMENT TRACKER",
+      "description": "Complete tracking od dsa 450 questions sekf paced preparation for interview",
+      "url": "https://my-placement-tracker.onrender.com",
+      "imgSrc": "https://res.cloudinary.com/dwvvzrxcq/image/upload/v1710820510/tj8owoebeypzjviwnpgz.png"
+    },
+    {
+      "title": "TECHI SUPPORT",
+      "description": "An Educational website with user Authentication. Website consist of free resources which can be aaccessed from any where",
+      "url": "https://techi-support-it1o.onrender.com",
+      "imgSrc": "https://res.cloudinary.com/dwvvzrxcq/image/upload/v1710820510/ymdwjdvi0lmcbfp4j23r.png"
+    },
+    {
+      "title": "TO DO LIST",
+      "description": "Very First React App with proper responsivness. The website is simple with to do list functionality",
+      "url": "https://todo-list-uxju.onrender.com",
+      "imgSrc": "https://res.cloudinary.com/dwvvzrxcq/image/upload/v1710820509/jrr9hxb06z07sgk7ewjx.png"
+    },
+    {
+      "title": "WEATHER APP",
+      "description": "Real time API based project which uses open source weather API to fetch data and gives realtime weather report",
+      "url": "https://ashwanikumar1715.github.io/weather_app/",
+      "imgSrc": "https://res.cloudinary.com/dwvvzrxcq/image/upload/v1710820509/klk0yjxq24dshk4dsk6v.png"
+    },
+    {
+      "title": "ALARM CLOCK",
+      "description": "Javascript based project which uses DOM and event listner of javascript and date method to alert at time setted",
+      "url": "https://ashwanikumar1715.github.io/Alarm_clock_javascript/",
+      "imgSrc": "https://res.cloudinary.com/dwvvzrxcq/image/upload/v1710820509/ogjwefqudafc5fm3iohq.png"
+    },
+    {
+      "title": "Quiz APP",
+      "description": "Javascript based project which uses DOM and event listner of javascript and validate the ans to give result",
+      "url": "https://ashwanikumar1715.github.io/quiz-app/",
+      "imgSrc": "https://res.cloudinary.com/dwvvzrxcq/image/upload/v1710820509/n3jjkwtiyhgl9b4ck9pm.png"
+    },
+    {
+      "title": "PORTFOLIO",
+      "description": "Personal website to manage my skills and Projects",
+      "url": "https://ashwanikumar1715.github.io/portfolio/",
+      "imgSrc": "https://res.cloudinary.com/dwvvzrxcq/image/upload/v1710820510/skeljb5a1cb3dud4yhmh.png"
+    },
+    {
+      "title": "MUSIC APP",
+      "description": "Javascript based project which uses DOM and event listner of javascript and play music for user",
+      "url": "https://ashwanikumar1715.github.io/Music-Player/",
+      "imgSrc": "https://res.cloudinary.com/dwvvzrxcq/image/upload/v1710820510/reri2ee3o5zxzxivr01i.png"
+    }
+  ]
+}
