@@ -88,7 +88,7 @@ const Home = () => {
                 </motion.span>
               )}
             </p>
-            <span>DSA Questions(overall)</span>
+            <span>DSA Ques</span>
           </article>
 
           <aside>

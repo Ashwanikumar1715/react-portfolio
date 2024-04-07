@@ -6,7 +6,7 @@ import data from "../assets/data.json";
 const Work = () => {
   return (
     <div id="work">
-      <h2>WORK</h2>
+      <h2 className="workcss">WORK</h2>
       <section>
         <article>
           <Carousel

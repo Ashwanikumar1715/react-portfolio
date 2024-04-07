@@ -10,26 +10,26 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [disableBtn, setDisableBtn] = useState(false);
 
-  const submitHandler = async (e) => {
-    e.preventDefault();
-    setDisableBtn(true);
-    try {
-      await addDoc(collection(db, "contacts"), {
-        name,
-        email,
-        message,
-      });
-      setName("");
-      setEmail("");
-      setMessage("");
-      toast.success("Message Sent");
-      setDisableBtn(false);
-    } catch (error) {
-      toast.error("Error");
-      console.log(error);
-      setDisableBtn(false);
-    }
-  };
+  // const submitHandler = async (e) => {
+  //   e.preventDefault();
+  //   setDisableBtn(true);
+  //   try {
+  //     await addDoc(collection(db, "contacts"), {
+  //       name,
+  //       email,
+  //       message,
+  //     });
+  //     setName("");
+  //     setEmail("");
+  //     setMessage("");
+  //     toast.success("Message Sent");
+  //     setDisableBtn(false);
+  //   } catch (error) {
+  //     toast.error("Error");
+  //     console.log(error);
+  //     setDisableBtn(false);
+  //   }
+  // };
 
   const animations = {
     form: {
@@ -60,8 +60,8 @@ const Contact = () => {
   return (
     <div id="contact">
       <section>
-        <motion.form onSubmit={submitHandler} {...animations.form}>
-          <h2>Contact Me</h2>
+        <motion.form  {...animations.form}>
+          <h2 className="uniquecontact">Contact Me</h2>
           <input
             type="text"
             value={name}

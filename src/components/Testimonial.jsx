@@ -7,7 +7,7 @@ import hack from "../assets/hack2.avif";
 import git from "../assets/git2.webp";
 const Testimonial = () => (
   <div id="testimonial">
-    <h2>My Coding Platforms</h2>
+    <h2 className="uniquecss">My Coding Platforms</h2>
 
     <section>
       <TestimonialCard

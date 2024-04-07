@@ -3,6 +3,7 @@ import data from "../assets/data2.json";
 
 const Skills = () => {
   return (
+  
     <div id="skills" className="timeline">
       <div className="timelineBox">
         {data.skills.map((item, index) => (
